@@ -6,3 +6,4 @@ The square root of nine is three. (7): nll = 4.10, ppl=60.32
 The square root of nine is two. (7): nll = 4.25, ppl=69.98
 The sine function is periodic. (5): nll = 5.40, ppl=221.07
 The square-root function is periodic. (5): nll = 5.62, ppl=276.08
+This is a very simple sentence. (6): nll = 3.41, ppl=30.24

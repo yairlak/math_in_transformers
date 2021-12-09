@@ -7,20 +7,21 @@ Created on Thu Dec  9 10:30:48 2021
 """
 
 import argparse
-import h5py
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 import numpy as np
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-i', '--input_path',
+parser.add_argument('-m', '--transformer', type=str,
+                    default='gpt2')
+parser.add_argument('-i', '--input_path', type=str,
                     default='../stimuli/test.txt')
-parser.add_argument('-o', '--output_path',
+parser.add_argument('-o', '--output_path', type=str,
                     default='../output/test_results.txt')
 args = parser.parse_args()
 
-tokenizer = AutoTokenizer.from_pretrained("gpt2")
-model = AutoModelForCausalLM.from_pretrained("gpt2")
+tokenizer = AutoTokenizer.from_pretrained(f"{args.transformer}")
+model = AutoModelForCausalLM.from_pretrained(f"{args.transformer}")
 
 with open(args.output_path, 'w') as fout:
     for i_seq, sequence in enumerate(open(args.input_path)):

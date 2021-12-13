@@ -1,9 +1,9 @@
+The sine function is periodic. 
+The square-root function is periodic.
 Two plus two is four.
 Two plus two is three.
 One times one is one.
 Two times one is one.
 The square root of nine is three.
 The square root of nine is two.
-The sine function is periodic. 
-The square-root function is periodic.
 This is a very simple sentence.

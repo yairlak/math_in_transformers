@@ -1,9 +1,9 @@
+The sine function is periodic. (5): nll = 5.40, ppl=221.07
+The square-root function is periodic. (5): nll = 5.62, ppl=276.08
 Two plus two is four. (5): nll = 4.79, ppl=119.74
 Two plus two is three. (5): nll = 4.75, ppl=115.44
 One times one is one. (5): nll = 5.40, ppl=222.05
 Two times one is one. (5): nll = 5.99, ppl=397.74
 The square root of nine is three. (7): nll = 4.10, ppl=60.32
 The square root of nine is two. (7): nll = 4.25, ppl=69.98
-The sine function is periodic. (5): nll = 5.40, ppl=221.07
-The square-root function is periodic. (5): nll = 5.62, ppl=276.08
 This is a very simple sentence. (6): nll = 3.41, ppl=30.24
